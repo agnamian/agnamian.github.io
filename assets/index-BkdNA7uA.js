@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/PoissonDiscPlugin-DReF4Mp3.js","assets/index-jZ4SSCT0.js","assets/index-CMi-rCOV.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as a}from"./index-jZ4SSCT0.js";async function n(i,o=!0){const{PoissonDiscPlugin:t}=await a(()=>import("./PoissonDiscPlugin-DReF4Mp3.js"),__vite__mapDeps([0,1,2]));await i.addPlugin(new t(i),o)}export{n as loadPoissonDiscPlugin};

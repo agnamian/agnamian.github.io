@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/InteractivityParticleMaker-BjOjqHAp.js","assets/index-jZ4SSCT0.js","assets/index-CMi-rCOV.css","assets/ExternalInteractorBase-CIi3zRdK.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as i}from"./index-jZ4SSCT0.js";async function o(t,a=!0){await t.addInteractor("externalParticle",async r=>{const{InteractivityParticleMaker:e}=await i(()=>import("./InteractivityParticleMaker-BjOjqHAp.js"),__vite__mapDeps([0,1,2,3]));return new e(r)},a)}export{o as loadExternalParticleInteraction};

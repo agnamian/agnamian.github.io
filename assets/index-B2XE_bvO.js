@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/ExportImagePlugin-DwV8HFck.js","assets/index-jZ4SSCT0.js","assets/index-CMi-rCOV.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as i}from"./index-jZ4SSCT0.js";async function _(t,a=!0){const{ExportImagePlugin:o}=await i(()=>import("./ExportImagePlugin-DwV8HFck.js"),__vite__mapDeps([0,1,2]));await t.addPlugin(new o(t),a)}export{_ as loadExportImagePlugin};

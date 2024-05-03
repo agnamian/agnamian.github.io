@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/EmittersCircleShapeGenerator-g4ch1CmF.js","assets/EmitterShapeBase-4KcS34Iy.js","assets/index-DM3d4TTC.js","assets/index-DIrhqTWM.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as o}from"./index-DM3d4TTC.js";async function c(t,a=!0){var r;const e=t,{EmittersCircleShapeGenerator:i}=await o(()=>import("./EmittersCircleShapeGenerator-g4ch1CmF.js"),__vite__mapDeps([0,1,2,3]));(r=e.addEmitterShapeGenerator)==null||r.call(e,"circle",new i),await e.refresh(a)}export{c as loadEmittersShapeCircle};

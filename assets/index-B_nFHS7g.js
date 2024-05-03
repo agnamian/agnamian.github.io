@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/Collider-ChdnfMxN.js","assets/index-BK2ernDs.js","assets/index-CDfSTK2Q.css","assets/ParticlesInteractorBase-vfDeBun3.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as a}from"./index-BK2ernDs.js";async function n(t,o=!0){await t.addInteractor("particlesCollisions",async i=>{const{Collider:r}=await a(()=>import("./Collider-ChdnfMxN.js"),__vite__mapDeps([0,1,2,3]));return new r(i)},o)}export{n as loadParticlesCollisionsInteraction};
